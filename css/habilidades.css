@@ -1,0 +1,52 @@
+.imagen-habilidad {
+    width: 20%;
+    margin-right: 20px;
+    filter: grayscale(100%) brightness(50%);
+    transition: filter 0.5s ease;
+}
+
+.imagen-habilidad:hover {
+    filter: none;
+}
+
+.card-1{
+    position: relative;
+    top: -30px;
+}
+
+.card-3{
+    position: relative;
+    top: 30px;
+}
+
+.sub-title{
+    position: relative;
+    bottom: 15px;
+}
+
+.card-head {
+    background: #008037;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Marquesina Estilos*/
+
+.marquesina {
+    height: 100px;
+    overflow: hidden;
+}
+
+.marquesina-inner {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

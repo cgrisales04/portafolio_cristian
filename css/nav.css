@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-image {
+    background: #008037 !important;
+}
+
+.color-gray {
+    color: #2b2b2b;
+}
+
+.waves {
+    width: 100%;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.size-text-nav {
+    font-size: 20px;
+}
