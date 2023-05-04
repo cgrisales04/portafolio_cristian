@@ -9,30 +9,41 @@
     filter: none;
 }
 
-.card-1{
-    position: relative;
-    top: -30px;
-}
-
-.card-3{
-    position: relative;
-    top: 30px;
-}
-
-.sub-title{
-    position: relative;
-    bottom: 15px;
-}
-
 .card-head {
     background: #008037;
     border-radius: 5px 5px 0px 0px;
 }
 
+.card-head i {
+    font-size: 25px;
+}
+
+.card-1 {
+    position: relative;
+    top: -30px;
+}
+
+.card-3 {
+    position: relative;
+    top: 30px;
+}
+
+.parrafo-card {
+    text-align: justify;
+    list-style: none;
+}
+
+.sub-title {
+    position: relative;
+    bottom: 15px;
+}
+
+
+
 /* Marquesina Estilos*/
 
 .marquesina {
-    height: 100px;
+    height: auto;
     overflow: hidden;
 }
 
