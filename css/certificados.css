@@ -1,0 +1,30 @@
+.listado-cursos {
+    height: 35vh;
+    overflow-y: scroll;
+}
+
+.eye-icon {
+    font-size: 25px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.image-blur {
+    position: relative;
+    width: 40%;
+    z-index: 1;
+    filter: blur(8px);
+}
+
+.img-1 {
+    left: 30%;
+}
+
+.img-2{
+    width: 40%;
+    z-index: 2;
+}
+
+.img-3 {
+    right: 30%;
+}

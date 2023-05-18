@@ -53,6 +53,12 @@ article .sub-title {
     bottom: 10px;
 }
 
+.sub-title {
+    position: relative;
+    bottom: 20px;
+}
+
+
 article p {
     margin: 10px 0px 15px 0px;
 }
